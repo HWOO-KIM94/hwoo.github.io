@@ -51,6 +51,7 @@
             <nav class="hidden md:flex space-x-8">
                 <a href="#about" class="hover:text-amber-400 transition-colors duration-300">소개</a>
                 <a href="#projects" class="hover:text-amber-400 transition-colors duration-300">프로젝트</a>
+                <a href="#portfolio" class="hover:text-amber-400 transition-colors duration-300">포트폴리오</a>
                 <a href="#skills" class="hover:text-amber-400 transition-colors duration-300">보유 기술</a>
             </nav>
             <button id="mobile-menu-button" class="md:hidden text-white focus:outline-none">
@@ -61,6 +62,7 @@
         <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
             <a href="#about" class="block py-2 hover:text-amber-400 transition-colors duration-300">소개</a>
             <a href="#projects" class="block py-2 hover:text-amber-400 transition-colors duration-300">프로젝트</a>
+            <a href="#portfolio" class="block py-2 hover:text-amber-400 transition-colors duration-300">포트폴리오</a>
             <a href="#skills" class="block py-2 hover:text-amber-400 transition-colors duration-300">보유 기술</a>
         </div>
     </header>
@@ -151,7 +153,7 @@
                 <!-- Launched Projects -->
                 <h3 class="text-2xl font-bold text-white mb-6 text-center md:text-left">런칭 완료</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                    <!-- Project Card 1 -->
+                    <!-- Project Card 1: BUMBLE BEE RUSH -->
                     <div class="card-bg rounded-lg overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300 shadow-lg h-full" onmouseenter="playPreview('project1')" onmouseleave="stopPreview('project1')">
                         <div class="relative h-48 flex-shrink-0">
                             <img id="img-project1" src="https://img.youtube.com/vi/HomTNStLjoo/hqdefault.jpg" alt="Bumble Bee Rush 게임 이미지" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-300">
@@ -174,13 +176,13 @@
                             <button onclick="openModal('project1')" class="w-full bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-amber-400 transition-colors duration-300 mt-auto">상세 보기</button>
                         </div>
                     </div>
-                    <!-- Project Card 2 -->
+                    <!-- Project Card 2: FIRE VS ICE DEVILS -->
                     <div class="card-bg rounded-lg overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300 shadow-lg h-full" onmouseenter="playPreview('project2')" onmouseleave="stopPreview('project2')">
                         <div class="relative h-48 flex-shrink-0">
                              <img id="img-project2" src="https://img.youtube.com/vi/g0y0TdRhulo/hqdefault.jpg" alt="Fire vs Ice Devils 게임 이미지" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-300">
                              <div id="video-container-project2" class="absolute inset-0 w-full h-full"></div>
                              <div class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 cursor-pointer" onclick="openModal('project2')">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="white" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="white" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
                             </div>
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
@@ -197,19 +199,66 @@
                              <button onclick="openModal('project2')" class="w-full bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-amber-400 transition-colors duration-300 mt-auto">상세 보기</button>
                         </div>
                     </div>
-                    <!-- Project Card 3 -->
-                    <div class="card-bg rounded-lg overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300 shadow-lg h-full" onmouseenter="playPreview('project4')" onmouseleave="stopPreview('project4')">
-                         <div class="relative h-48 flex-shrink-0">
-                            <img id="img-project4" src="https://img.youtube.com/vi/N36RJA-9eO4/hqdefault.jpg" alt="Great Buffalo 게임 이미지" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-300">
-                             <div id="video-container-project4" class="absolute inset-0 w-full h-full"></div>
-                             <div class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 cursor-pointer" onclick="openModal('project4')">
+                    <!-- Project Card 11: ZEUS LIGHTNING STRIKE -->
+                    <div class="card-bg rounded-lg overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300 shadow-lg h-full">
+                        <div class="relative h-48 flex-shrink-0">
+                            <img id="img-project11" src="https://placehold.co/600x400/1f2937/fbbd24?text=Zeus" alt="ZEUS LIGHTNING STRIKE 게임 이미지" class="absolute inset-0 w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 cursor-pointer" onclick="openModal('project11')">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="white" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
                             </div>
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
                             <div class="flex-grow">
+                                <p class="text-xs text-gray-500 mb-1">PEBBLE CITY CASINO</p>
+                                <h3 class="text-xl font-bold text-white mb-2">ZEUS LIGHTNING STRIKE</h3>
+                                <div class="flex flex-wrap gap-2 mb-4">
+                                    <span class="tag text-xs font-semibold px-2 py-1 rounded-full">#제우스</span>
+                                    <span class="tag text-xs font-semibold px-2 py-1 rounded-full">#케스케이딩</span>
+                                    <span class="tag text-xs font-semibold px-2 py-1 rounded-full">#멀티플라이</span>
+                                    <span class="tag text-xs font-semibold px-2 py-1 rounded-full">#프리스핀</span>
+                                </div>
+                                <p class="text-sm text-gray-400 mb-4">제우스의 번개와 함께 터지는 연쇄 히트의 짜릿함을 담은 케스케이딩 슬롯입니다. 프리스핀 중 특정 조건을 달성하면 심볼 배수가 활성화되고, 연속 히트 시 발동하는 번개 피처를 통해 높은 보상에 대한 기대감을 극대화했습니다.</p>
+                            </div>
+                            <button onclick="openModal('project11')" class="w-full bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-amber-400 transition-colors duration-300 mt-auto">상세 보기</button>
+                        </div>
+                    </div>
+                    <!-- Project Card 12: BOOK OF PHARAOH -->
+                    <div class="card-bg rounded-lg overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300 shadow-lg h-full">
+                        <div class="relative h-48 flex-shrink-0">
+                            <img id="img-project12" src="https://placehold.co/600x400/1f2937/fbbd24?text=Pharaoh" alt="BOOK OF PHARAOH 게임 이미지" class="absolute inset-0 w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 cursor-pointer" onclick="openModal('project12')">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="white" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                            </div>
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <div class="flex-grow">
+                                <p class="text-xs text-gray-500 mb-1">PEBBLE CITY CASINO</p>
+                                <h3 class="text-xl font-bold text-white mb-2">BOOK OF PHARAOH</h3>
+                                <div class="flex flex-wrap gap-2 mb-4">
+                                    <span class="tag text-xs font-semibold px-2 py-1 rounded-full">#이집트</span>
+                                    <span class="tag text-xs font-semibold px-2 py-1 rounded-full">#보물</span>
+                                    <span class="tag text-xs font-semibold px-2 py-1 rounded-full">#확장심볼</span>
+                                    <span class="tag text-xs font-semibold px-2 py-1 rounded-full">#프리스핀</span>
+                                    <span class="tag text-xs font-semibold px-2 py-1 rounded-full">#잭팟보너스</span>
+                                </div>
+                                <p class="text-sm text-gray-400 mb-4">고대 이집트 테마의 슬롯으로, 프리스핀에서 선택된 확장 심볼을 통해 큰 보상을 노릴 수 있습니다. 프리스핀에 진입할 때마다 컬렉션 게이지가 채워지며, 이를 모두 채우면 더욱 강력한 '슈퍼 프리스핀'이 발동되어 잭팟의 기대감을 선사합니다.</p>
+                            </div>
+                            <button onclick="openModal('project12')" class="w-full bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-amber-400 transition-colors duration-300 mt-auto">상세 보기</button>
+                        </div>
+                    </div>
+                    <!-- Project Card 4: GREAT BUFFALO RUSH -->
+                    <div class="card-bg rounded-lg overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300 shadow-lg h-full" onmouseenter="playPreview('project4')" onmouseleave="stopPreview('project4')">
+                         <div class="relative h-48 flex-shrink-0">
+                            <img id="img-project4" src="https://img.youtube.com/vi/N36RJA-9eO4/hqdefault.jpg" alt="Great Buffalo Rush 게임 이미지" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-300">
+                             <div id="video-container-project4" class="absolute inset-0 w-full h-full"></div>
+                             <div class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 cursor-pointer" onclick="openModal('project4')">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="white" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                            </div>
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <div class="flex-grow">
                                 <p class="text-xs text-gray-500 mb-1">GOLDWING CASINO</p>
-                                <h3 class="text-xl font-bold text-white mb-2">GREAT BUFFALO</h3>
+                                <h3 class="text-xl font-bold text-white mb-2">GREAT BUFFALO RUSH</h3>
                                 <div class="flex flex-wrap gap-2 mb-4">
                                     <span class="tag text-xs font-semibold px-2 py-1 rounded-full">#버팔로</span>
                                     <span class="tag text-xs font-semibold px-2 py-1 rounded-full">#프리스핀</span>
@@ -220,13 +269,13 @@
                              <button onclick="openModal('project4')" class="w-full bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-amber-400 transition-colors duration-300 mt-auto">상세 보기</button>
                         </div>
                     </div>
-                    <!-- Project Card 4 -->
+                    <!-- Project Card 3: CAPTAIN TREASURE -->
                     <div class="card-bg rounded-lg overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300 shadow-lg h-full" onmouseenter="playPreview('project3')" onmouseleave="stopPreview('project3')">
                          <div class="relative h-48 flex-shrink-0">
                             <img id="img-project3" src="https://img.youtube.com/vi/GmSUWaL804c/hqdefault.jpg" alt="Captain Treasure 게임 이미지" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-300">
                              <div id="video-container-project3" class="absolute inset-0 w-full h-full"></div>
                              <div class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 cursor-pointer" onclick="openModal('project3')">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="white" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="white" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
                             </div>
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
@@ -352,6 +401,48 @@
                 </div>
             </div>
         </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="py-20 md:py-32 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold mb-2 section-title">PORTFOLIO</h2>
+                    <p class="text-lg text-gray-400">기획 역량을 보여주는 문서 샘플입니다.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Portfolio Card 1 -->
+                    <div class="card-bg rounded-lg overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300 shadow-lg h-full">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <div class="flex-grow">
+                                <h3 class="text-xl font-bold text-white mb-2">AI를 활용한 제안서 작성</h3>
+                                <p class="text-sm text-gray-400 mb-4">생성형 AI를 활용하여 신규 슬롯 게임의 콘셉트 제안서를 효율적으로 작성합니다. 시장 분석, 테마 아이디어, 핵심 피처 등을 구조화하여 설득력 있는 문서를 만듭니다.</p>
+                            </div>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="w-full text-center bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-amber-400 transition-colors duration-300 mt-auto">PDF 보기</a>
+                        </div>
+                    </div>
+                    <!-- Portfolio Card 2 -->
+                    <div class="card-bg rounded-lg overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300 shadow-lg h-full">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <div class="flex-grow">
+                                <h3 class="text-xl font-bold text-white mb-2">슬롯 게임 기획서 (GDD)</h3>
+                                <p class="text-sm text-gray-400 mb-4">게임의 모든 요소를 상세하게 정의한 기획서입니다. 콘셉트, 규칙, 시스템, UI/UX, 아트 및 사운드 리소스 등 개발에 필요한 모든 정보를 명확하게 기술합니다.</p>
+                            </div>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="w-full text-center bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-amber-400 transition-colors duration-300 mt-auto">PDF 보기</a>
+                        </div>
+                    </div>
+                    <!-- Portfolio Card 3 -->
+                    <div class="card-bg rounded-lg overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300 shadow-lg h-full">
+                        <div class="p-6 flex flex-col flex-grow">
+                            <div class="flex-grow">
+                                <h3 class="text-xl font-bold text-white mb-2">슬롯 매쓰 설계 문서</h3>
+                                <p class="text-sm text-gray-400 mb-4">슬롯의 핵심인 수학적 모델을 설계한 문서입니다. RTP, 변동성, 페이테이블, 심볼 확률 등을 정교하게 계산하고 시뮬레이션을 통해 게임의 재미와 수익성을 검증합니다.</p>
+                            </div>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="w-full text-center bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-amber-400 transition-colors duration-300 mt-auto">PDF 보기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         
         <!-- Skills Section -->
         <section id="skills" class="py-20 md:py-32 bg-gray-800/50">
@@ -384,7 +475,9 @@
                         <h3 class="text-2xl font-bold text-white mb-4">도구 및 협업</h3>
                         <div class="flex flex-wrap gap-3">
                             <span class="bg-gray-700 text-gray-200 text-md font-medium px-4 py-2 rounded-lg">MS Excel (고급)</span>
-                            <span class="bg-gray-700 text-gray-200 text-md font-medium px-4 py-2 rounded-lg">Jira & Confluence</span>
+                            <span class="bg-gray-700 text-gray-200 text-md font-medium px-4 py-2 rounded-lg">Jira/Confluence 기반 협업</span>
+                            <span class="bg-gray-700 text-gray-200 text-md font-medium px-4 py-2 rounded-lg">애자일 스프린트 관리</span>
+                            <span class="bg-gray-700 text-gray-200 text-md font-medium px-4 py-2 rounded-lg">프로젝트 문서화</span>
                             <span class="bg-gray-700 text-gray-200 text-md font-medium px-4 py-2 rounded-lg">Unity</span>
                             <span class="bg-gray-700 text-gray-200 text-md font-medium px-4 py-2 rounded-lg">SourceTree</span>
                         </div>
@@ -405,6 +498,7 @@
                 </div>
             </div>
         </section>
+
     </main>
 
     <!-- Footer -->
@@ -457,6 +551,40 @@
                     "개발팀과 협업하여 양방향 히트 및 와일드 기능 구현"
                 ]
             },
+            project11: {
+                title: "ZEUS LIGHTNING STRIKE",
+                videoUrl: null,
+                videoId: null,
+                description: "제우스의 번개와 함께 터지는 연쇄 히트의 짜릿함을 담은 케스케이딩 슬롯입니다. 프리스핀 중 특정 조건을 달성하면 심볼 배수가 활성화되고, 연속 히트 시 발동하는 번개 피처를 통해 높은 보상에 대한 기대감을 극대화했습니다.",
+                contributions: [
+                    "제우스 테마 및 번개 피처 콘셉트 기획",
+                    "케스케이딩 연쇄 히트와 배수 시스템 밸런싱",
+                    "프리스핀 중 기대감 증폭을 위한 조건부 보상 설계"
+                ]
+            },
+            project12: {
+                title: "BOOK OF PHARAOH",
+                videoUrl: null,
+                videoId: null,
+                description: "고대 이집트 테마의 슬롯으로, 프리스핀에서 선택된 확장 심볼을 통해 큰 보상을 노릴 수 있습니다. 프리스핀에 진입할 때마다 컬렉션 게이지가 채워지며, 이를 모두 채우면 더욱 강력한 '슈퍼 프리스핀'이 발동되어 잭팟의 기대감을 선사합니다.",
+                contributions: [
+                    "'Book of' 메커니즘과 컬렉션 시스템 결합 기획",
+                    "확장 심볼 및 슈퍼 프리스핀 보상 밸런싱",
+                    "이집트 테마의 시각적/사운드 연출 제안"
+                ]
+            },
+            project4: {
+                title: "GREAT BUFFALO RUSH",
+                videoUrl: "https://www.youtube.com/embed/N36RJA-9eO4",
+                videoId: "N36RJA-9eO4",
+                description: "특수 심볼이 일정 개수 등장할 때마다 상위 심볼이 버팔로 심볼로 변경되어, 큰 히트에 대한 기대감을 점진적으로 높여주는 방식으로 설계된 슬롯입니다.",
+                contributions: [
+                    "버팔로 테마 및 심볼 업그레이드 시스템 기획",
+                    "프리스핀 중 심볼 변경 로직 및 밸런싱",
+                    "점진적인 기대감 상승을 위한 연출 제안",
+                    "개발팀과 협업하여 심볼 변경 피처 구현"
+                ]
+            },
             project3: {
                 title: "CAPTAIN TREASURE",
                 videoUrl: "https://www.youtube.com/embed/GmSUWaL804c",
@@ -468,18 +596,6 @@
                     "프리스핀 중 금화 획득량 증가 밸런싱",
                     "팟 피처의 기대감을 높이는 시각적 연출 제안",
                     "아트 팀과 협업하여 역동적인 해적 테마 구현"
-                ]
-            },
-            project4: {
-                title: "GREAT BUFFALO",
-                videoUrl: "https://www.youtube.com/embed/N36RJA-9eO4",
-                videoId: "N36RJA-9eO4",
-                description: "특수 심볼이 일정 개수 등장할 때마다 상위 심볼이 버팔로 심볼로 변경되어, 큰 히트에 대한 기대감을 점진적으로 높여주는 방식으로 설계된 슬롯입니다.",
-                contributions: [
-                    "버팔로 테마 및 심볼 업그레이드 시스템 기획",
-                    "프리스핀 중 심볼 변경 로직 및 밸런싱",
-                    "점진적인 기대감 상승을 위한 연출 제안",
-                    "개발팀과 협업하여 심볼 변경 피처 구현"
                 ]
             },
             project5: {
@@ -564,7 +680,7 @@
                 ]
             },
              project10: {
-                title: "LINK & WIN DELUXE",
+                title: "MEGA 3 TOAD POT",
                 videoUrl: null,
                 videoId: null,
                 referenceUrl: [
@@ -598,7 +714,7 @@
             img.style.opacity = '0';
 
             const iframe = document.createElement('iframe');
-            iframe.classList.add('w-full', 'h-full', 'opacity-0');
+            iframe.classList.add('w-full', 'h-full', 'opacity-0', 'transition-opacity', 'duration-300');
             iframe.src = `${details.videoUrl}?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&loop=1&playlist=${details.videoId}`;
             iframe.setAttribute('frameborder', '0');
             iframe.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture');
@@ -642,7 +758,7 @@
                 </ul>
             `;
 
-            if (!hasVideo && details.referenceUrl) {
+            if (details.referenceUrl) {
                 const urls = Array.isArray(details.referenceUrl) ? details.referenceUrl : [details.referenceUrl];
                 contentHTML += `
                 <div class="mb-6">
@@ -654,7 +770,7 @@
                 `;
             }
             
-            if (!hasVideo && Array.isArray(details.referenceDifferences)) {
+            if (Array.isArray(details.referenceDifferences)) {
                  contentHTML += `
                 <div>
                     <h4 class="text-xl font-semibold text-amber-400 mb-3">레퍼런스와 차별점</h4>
@@ -695,6 +811,11 @@
             modal.classList.add('hidden');
             modal.classList.remove('flex');
             document.body.style.overflow = 'auto';
+            // Stop video when closing modal
+            const iframe = modalContent.querySelector('iframe');
+            if (iframe) {
+                iframe.src = '';
+            }
             modalContent.innerHTML = '';
         }
         
